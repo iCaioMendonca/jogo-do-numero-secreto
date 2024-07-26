@@ -1,5 +1,5 @@
 let tentativas = 1 //Varivel para contatar tentativas
-let numeroLimite = 10; //variavel do numero limete de numero sorteado
+let numeroLimite = 50; //variavel do numero limete de numero sorteado
 let listaNumSorteado = []; //vetor/lista para verificar se o numero sorteado nao e igual ao anterior
 let numSecreto = geraNumSecreto(); //variavel do que contem o numero secreto, chamando o numero secreto
 
@@ -31,7 +31,7 @@ function geraNumSecreto(){
 
 //funcao texto padrao
  function mensagemInicial(){
-    exibirTextoNaTela('h1', 'Jogo do número secreto'); //mensagem de saudacao
+    exibirTextoNaTela('h1', 'Jogo do número muito secreto'); //mensagem de saudacao
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10'); //mensagem pedindo principal acao
 }
 
